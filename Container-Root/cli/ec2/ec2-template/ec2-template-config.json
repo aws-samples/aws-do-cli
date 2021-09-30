@@ -1,0 +1,69 @@
+{
+  "DryRun": false,
+  "LaunchTemplateName": "",
+  "VersionDescription": "Launch template created by aws-do-cli",
+  "LaunchTemplateData": {
+    "IamInstanceProfile": {
+      "Name": ""
+    },
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/sda1",
+        "Ebs": {
+          "Encrypted": true,
+          "DeleteOnTermination": true,
+          "VolumeSize": 0,
+          "VolumeType": "gp3"
+        }
+      }
+    ],
+    "NetworkInterfaces": [
+      {
+        "AssociatePublicIpAddress": true,
+        "DeleteOnTermination": true,
+        "DeviceIndex": 0,
+        "Groups": [
+          ""
+        ],
+        "Ipv6AddressCount": 0,
+        "SubnetId": "",
+        "NetworkCardIndex": 0
+      }
+    ],
+    "ImageId": "",
+    "KeyName": "",
+    "Monitoring": {
+      "Enabled": true
+    },
+    "DisableApiTermination": false,
+    "InstanceInitiatedShutdownBehavior": "stop",
+    "UserData": "",
+    "TagSpecifications": [
+      {
+        "ResourceType": "instance",
+        "Tags": [
+          {
+            "Key": "",
+            "Value": ""
+          }
+        ]
+      }
+    ],
+    "MetadataOptions": {
+      "HttpTokens": "required",
+      "HttpPutResponseHopLimit": 5,
+      "HttpEndpoint": "enabled"
+    }
+  },
+  "TagSpecifications": [
+    {
+      "ResourceType": "launch-template",
+      "Tags": [
+        {
+          "Key": "",
+          "Value": ""
+        }
+      ]
+    }
+  ]
+}
