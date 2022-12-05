@@ -155,7 +155,7 @@ The aws-do-cli project enables running AWS CLI, AWS CLI v2, and aws-shell in a c
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
 
 ## License
-This library is licensed under the MIT-0 License. See the [LICENSE.txt](LICENSE.txt) file.
+This library is licensed under the Apache 2.0 License. See the [LICENSE.txt](LICENSE.txt) file.
 
 ## References
 * [Do framework / depend-on-docker project](https://github.com/iankoulski/depend-on-docker)
