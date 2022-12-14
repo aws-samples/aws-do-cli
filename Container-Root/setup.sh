@@ -45,5 +45,9 @@ curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/ubuntu_64
 dpkg -i session-manager-plugin.deb
 rm -f ./session-manager-plugin.deb
 
+# Install Debian license manager
+cd /opt
+wget https://github.com/daald/dpkg-licenses/archive/master.zip -O master.zip; unzip master.zip; rm master.zip
+
 echo "Done."
 
