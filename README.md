@@ -1,4 +1,4 @@
-# AWS Command Line Interface (CLI) container implemented as a Do framework project (aws-do-cli)
+# AWS Command Line Interface (CLI) container implemented as a [do-framework](https://bit.ly/do-framework) project (aws-do-cli)
 This project follows the principles of the Do framework to build and run a container for the [AWS CLI](https://aws.amazon.com/cli/). This container can be used for generic AWS CLI commands including management of your AWS VPCs and other infrastructure in the Amazon cloud.
 
 ## Why use this project
@@ -155,7 +155,7 @@ The aws-do-cli project enables running AWS CLI, AWS CLI v2, and aws-shell in a c
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
 
 ## License
-This library is licensed under the MIT-0 License. See the [LICENSE.txt](LICENSE.txt) file.
+This library is licensed under the Apache 2.0 License. See the [LICENSE.txt](LICENSE.txt) file.
 
 ## References
 * [Do framework / depend-on-docker project](https://github.com/iankoulski/depend-on-docker)
