@@ -7,7 +7,21 @@ This project follows the principles of the Do framework to build and run a conta
 If you would prefer to run the AWS CLI in a container rather than installing it on your current machine, then this project is one of the available options.
 
 ## How to use this project
-To use this project, build and run the aws-do-cli container, then open a shell into the container and use aws commands or start aws-shell as shown in the screencast below.
+This project can be run directly from the public container image, or it can be built from source. The only prerequisite is [Docker](https://docker.com).
+
+### Run public Docker image
+
+To run the public image execute the following line:
+
+```bash
+docker run --rm -it public.ecr.aws/hpc-cloud/aws-do-cli bash
+```
+
+Once you are in the container shell, you can execute aws, aws2, and aws-shell commands as shown in the screencast further below.
+
+### Build from source 
+
+To use this project from source, clone it, build and run the aws-do-cli container image, then open a shell into the container and use aws commands or start aws-shell as shown in the screencast below.
 
 <div align="center">
 <img src="./aws-do-cli-screencast.gif" width="90%"/>
