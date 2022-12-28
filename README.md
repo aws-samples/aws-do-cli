@@ -1,4 +1,6 @@
-# AWS Command Line Interface (CLI) container implemented as a [do-framework](https://bit.ly/do-framework) project (aws-do-cli)
+<img alt="aws-do-cli" src="./aws-do-cli-1024.png" width="25%" align="right" />
+
+# aws-do-cli <br/> AWS Command Line Interface (CLI) container implemented as a [do-framework](https://bit.ly/do-framework) project
 This project follows the principles of the Do framework to build and run a container for the [AWS CLI](https://aws.amazon.com/cli/). This container can be used for generic AWS CLI commands including management of your AWS VPCs and other infrastructure in the Amazon cloud.
 
 ## Why use this project
