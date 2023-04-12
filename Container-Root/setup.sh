@@ -17,7 +17,7 @@ fi
 # Install basic tools
 echo "Installing basic tools ..."
 apt-get update
-apt-get install -y vim htop software-properties-common groff jq
+apt-get install -y vim htop software-properties-common groff jq bsdmainutils
 
 # Customize bash
 echo "Customizing bash ..."
@@ -46,8 +46,17 @@ dpkg -i session-manager-plugin.deb
 rm -f ./session-manager-plugin.deb
 
 # Install Debian license manager
+echo "Installing Debian License Manager ...."
 cd /opt
 wget https://github.com/daald/dpkg-licenses/archive/master.zip -O master.zip; unzip master.zip; rm master.zip
+
+# Install bash-my-aws
+echo "Installing bash-my-aws ..."
+git clone https://github.com/bash-my-aws/bash-my-aws.git /opt/bash-my-aws
+ln -s /opt/bash-my-aws /root/.bash-my-aws
+echo "export PATH=\$PATH:/opt/bash-my-aws/bin" >> /root/.bashrc
+echo "source /opt/bash-my-aws/aliases" >> /root/.bashrc
+echo "source /opt/bash-my-aws/bash_completion.sh" >> /root/.bashrc
 
 echo "Done."
 
